@@ -1,0 +1,39 @@
+html {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(212, 45%, 89%);
+    display: grid;
+    place-content: center;    
+}
+body {
+    font-weight: 400;
+    background-color: hsl(0, 0%, 100%);
+    width: 87vw;
+    margin: 0.5em;
+    padding: 0.7em;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+h1 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+main {
+    color: hsl(220, 15%, 55%);
+}
+
+@media screen and (min-width: 1440px){
+    body {
+        width: 30vw;
+        .nowrap {
+            white-space: nowrap;
+        }
+    }
+}
